@@ -1,0 +1,22 @@
+{
+  "name": "skenofavs-cli",
+  "version": "1.1.0",
+  "description": "Easily launch your favorite websites",
+  "files": ["src/main.js"],
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "favs": "src/main.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.2.2",
+    "dotenv": "^16.3.1",
+    "open": "^10.0.2"
+  }
+}
